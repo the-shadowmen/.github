@@ -1,0 +1,56 @@
+orgs:
+  the-shadowmen:
+    admins:
+      - alosadagrande
+      - codificat
+      - iranzo
+      - janitor-bot
+      - jparrill
+      - mvazquezc
+      - ptrnull
+      - ruromero
+    billing_email: jparrill@redhat.com
+    company: ""
+    default_repository_permission: read
+    description: OS Organization with learning purposes and too much curiosity
+    email: ""
+    has_organization_projects: true
+    has_repository_projects: true
+    location: ""
+    members_can_create_repositories: true
+    name: The Shadowmen
+    repos:
+      .github:
+        default_branch: main
+        has_projects: true
+      EKOutils:
+        description: Utility scripts for community-related activities
+        has_projects: true
+      cloud-image-builder:
+        description: Scripts and playbooks for creating and testing cloud images containing Kubernetes and KubeVirt
+        has_issues: false
+        has_projects: true
+      kubevirt-tutorial:
+        description: Demo that guides users through an end to end KubeVirt experience.
+        has_projects: true
+        homepage: https://www.kubevirt.io/
+      kubevirt.github.io:
+        description: 'KubeVirt website and documentation repo: https://kubevirt.github.io'
+        has_issues: false
+        has_projects: true
+        has_wiki: false
+      kubevirtci:
+        description: Contains cluster definitions and client tools to quickly spin up and destroy ephemeral and scalable k8s and ocp clusters for testing
+        has_issues: false
+        has_projects: true
+      nostromo:
+        description: 'Testing repository '
+        has_projects: true
+      project-infra:
+        description: Project infrastructure administrative tools
+        has_issues: false
+        has_projects: true
+        has_wiki: false
+      prow-devconf:
+        description: Prow Configuration for DevConf
+        has_projects: true
